@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagens de Tamanhos Diferentes</h1>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/Pequena.png">
+        <source media="(max-width: 1050px )" srcset="Imagens/Média.png">
+        <img src="Imagens/Grande.png" alt="Imagem Grande">
+    </picture>
+
+<audio src="Audios/cavalo-vai-dar-namoro.mp3" controls></audio>
+
+<audio preload="metadata" controls>
+    <source src="Audios/cavalo-vai-dar-namoro.mp3" type="audio/mpeg">
+    <source src="Audios/cavalo-vai-dar-namoro.wav" type="audio/wav">
+    <p>O navegador não suporta arquivos mp3 ou wav</p>
+</audio>
+
+
+
+</body>
+</html>

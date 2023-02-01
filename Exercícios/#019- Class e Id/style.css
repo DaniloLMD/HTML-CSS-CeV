@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(4, 4, 248, 0.801)
+}
+h1{
+    color: whitesmoke;
+}
+h1#primeiro{
+    color: green;
+    font-size: 3em;
+    text-align:center;
+}
+.basico{
+    color: green;
+}
+.medio{
+    color: rgb(0, 0, 99);
+}
+.avançado{
+    color: red;
+}

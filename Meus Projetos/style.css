@@ -1,0 +1,16 @@
+@charset "UTF-8";
+h1,img,p{box-shadow: 10px 10px 10px black;}
+body{
+    background-image: linear-gradient(to right, #0F6272 ,#007176 );
+    height: 100%;
+}
+h1{
+    width: 3.8em;
+    padding: 10px;
+    font: italic bold 3em cursive
+}
+img{
+    background-color: whitesmoke;
+}
+p,h1 {
+    background-image: linear-gradient(to right,#714931,#BF9469)}

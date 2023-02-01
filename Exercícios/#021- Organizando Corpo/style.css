@@ -1,0 +1,50 @@
+body{
+    background-image:linear-gradient(to right, whitesmoke,lightgrey)
+}
+header{
+    background-color:grey;
+    margin: 3px auto;
+    text-align: center;
+    border: 3px solid black;
+}
+header > h1{
+    font-family:monospace;
+}
+section{
+    border: 3px solid black;
+    padding: 1px 10px 1px 10px;
+    width: 20em;
+    height:20em;
+    display: inline-block;
+    text-align:justify;
+    font: normal bolder 1.5em Arial,Helvetica;
+}
+#saúde{
+    background-color: red;
+}
+#crime{
+    background-color:rgba(41, 41, 153, 0.897);
+}
+article{
+    background-color:rgba(128, 128, 128, 0.911);
+    height:15em;
+    font: normal normal 1em Arial,Helvetica;
+    border: 0.2em solid black;
+    padding: 0px 0px 65px 0px;
+}
+.autor{
+    background-color: rgba(107, 105, 105, 0.753);
+}
+.titulo{
+
+    font: italic bold 1.1em Arial;
+}
+footer{
+    background-color:whitesmoke;
+    text-align:center;
+    border:1px dashed black;
+    width: 10em;
+    margin: 3em auto;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.603);
+    border-radius: 30px;
+}

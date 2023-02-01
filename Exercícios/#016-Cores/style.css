@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+main{margin:auto;
+width:900px;
+background-image: linear-gradient(to bottom,rgb(81, 236, 81),rgb(0, 78, 0));
+padding: 10px;
+box-shadow: 10px 10px 5px black;}
+
+
+
+
+
+body{background-image:linear-gradient(to right,rgb(95, 95, 250),rgb(250, 109, 250))}
+p{text-align: justify} 
